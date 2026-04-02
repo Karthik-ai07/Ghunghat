@@ -137,6 +137,8 @@ export function CanvasSequence() {
               backgroundColor: "#1a0808",
               color: "#B8860B",
             }}
+            role="status"
+            aria-live="polite"
           >
             <p
               style={{
@@ -185,6 +187,8 @@ export function CanvasSequence() {
         {/* Canvas */}
         <canvas
           ref={canvasRef}
+          role="img"
+          aria-label="Cinematic 3D animation of Ghunghat branding"
           style={{
             display: "block",
             width: "100%",
@@ -195,6 +199,7 @@ export function CanvasSequence() {
 
         {/* Scroll hint — visible only at top */}
         <div
+          aria-hidden="true"
           style={{
             position: "absolute",
             bottom: "5rem",

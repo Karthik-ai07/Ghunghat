@@ -319,6 +319,7 @@ export default function Home() {
             {/* CTA */}
             <Link
               href="/skincare"
+              aria-label="Explore Skincare Collection"
               style={{
                 marginTop: "0.5rem",
                 display: "inline-flex",
@@ -348,6 +349,7 @@ export default function Home() {
                 strokeWidth="2.5"
                 strokeLinecap="round"
                 strokeLinejoin="round"
+                aria-hidden="true"
               >
                 <line x1="5" y1="12" x2="19" y2="12" />
                 <polyline points="12 5 19 12 12 19" />
@@ -640,6 +642,7 @@ export default function Home() {
                 <Link
                   key={p.name}
                   href={p.href}
+                  aria-label={`View details for ${p.name}`}
                   style={{
                     display: "block",
                     textDecoration: "none",
@@ -723,6 +726,7 @@ export default function Home() {
             <div style={{ textAlign: "center", marginTop: "2.5rem" }}>
               <Link
                 href="/skincare"
+                aria-label="View all beauty and skincare products"
                 style={{
                   fontFamily: "Arial",
                   fontSize: "0.72rem",

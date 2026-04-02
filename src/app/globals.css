@@ -135,7 +135,10 @@
 
 @layer base {
   * {
-    @apply border-border outline-ring/50;
+    @apply border-border;
+  }
+  *:focus-visible {
+    @apply outline-ring outline-2 outline-offset-2;
   }
   body {
     @apply bg-background text-foreground;
@@ -145,6 +148,11 @@
   }
   h1, h2, h3, h4, h5, h6 {
     @apply font-heading tracking-tight;
+  }
+
+  /* Accessibility skip-link */
+  .skip-to-content {
+    @apply absolute -top-10 left-0 z-[100] bg-ghunghat-primary text-white px-4 py-2 transition-all focus:top-0;
   }
 }
 

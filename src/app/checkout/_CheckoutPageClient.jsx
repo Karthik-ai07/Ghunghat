@@ -4,10 +4,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { useCartStore } from "@/store/cartStore";
 
-function FormField({ label, type = "text", placeholder, required = false }) {
+function FormField({ label, type = "text", placeholder, required = false, name }) {
+  const id = name || label.toLowerCase().replace(/\s+/g, "-");
   return (
     <div>
       <label
+        htmlFor={id}
         style={{
           display: "block",
           fontFamily: "Arial",
@@ -23,9 +25,12 @@ function FormField({ label, type = "text", placeholder, required = false }) {
         {required && <span style={{ color: "#8B0000" }}> *</span>}
       </label>
       <input
+        id={id}
+        name={id}
         type={type}
         placeholder={placeholder}
         required={required}
+        className="focus:ring-2 focus:ring-[#B8860B] focus:border-transparent"
         style={{
           width: "100%",
           padding: "0.875rem 1rem",
@@ -35,7 +40,6 @@ function FormField({ label, type = "text", placeholder, required = false }) {
           fontSize: "0.9rem",
           color: "#1A1A1A",
           backgroundColor: "#fff",
-          outline: "none",
           boxSizing: "border-box",
         }}
       />

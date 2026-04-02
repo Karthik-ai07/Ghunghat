@@ -53,6 +53,7 @@ function PinIcon() {
       strokeLinecap="round"
       strokeLinejoin="round"
       style={{ flexShrink: 0, marginTop: "2px" }}
+      aria-hidden="true"
     >
       <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
       <circle cx="12" cy="10" r="3" />
@@ -103,7 +104,7 @@ export function Footer() {
                 fontFamily: "Georgia, serif",
                 fontStyle: "italic",
                 fontSize: "0.8rem",
-                color: "rgba(255,248,231,0.35)",
+                color: "rgba(255,248,231,0.65)",
                 margin: "0.5rem 0 1.25rem",
                 lineHeight: 1.6,
               }}
@@ -116,7 +117,7 @@ export function Footer() {
                 display: "flex",
                 gap: "0.5rem",
                 alignItems: "flex-start",
-                color: "rgba(255,248,231,0.4)",
+                color: "rgba(255,248,231,0.6)",
               }}
             >
               <PinIcon />
@@ -124,7 +125,7 @@ export function Footer() {
                 style={{
                   fontFamily: "Arial",
                   fontSize: "0.78rem",
-                  color: "rgba(255,248,231,0.4)",
+                  color: "rgba(255,248,231,0.65)",
                   lineHeight: 1.7,
                   fontStyle: "normal",
                 }}
@@ -166,7 +167,7 @@ export function Footer() {
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
-                    color: "rgba(255,248,231,0.4)",
+                    color: "rgba(255,248,231,0.75)",
                     transition: "all 0.2s",
                   }}
                 >
@@ -210,7 +211,7 @@ export function Footer() {
                   style={{
                     fontFamily: "Arial",
                     fontSize: "0.82rem",
-                    color: "rgba(255,248,231,0.4)",
+                    color: "rgba(255,248,231,0.7)",
                     textDecoration: "none",
                     transition: "color 0.2s",
                     letterSpacing: "0.03em",
@@ -308,7 +309,7 @@ export function Footer() {
                     style={{
                       fontFamily: "Arial",
                       fontSize: "0.78rem",
-                      color: "rgba(255,248,231,0.35)",
+                      color: "rgba(255,248,231,0.65)",
                     }}
                   >
                     {label}
@@ -344,7 +345,7 @@ export function Footer() {
             style={{
               fontFamily: "Arial",
               fontSize: "0.72rem",
-              color: "rgba(255,248,231,0.2)",
+              color: "rgba(255,248,231,0.5)",
               margin: 0,
             }}
           >
@@ -362,7 +363,7 @@ export function Footer() {
                 style={{
                   fontFamily: "Arial",
                   fontSize: "0.7rem",
-                  color: "rgba(255,248,231,0.2)",
+                  color: "rgba(255,248,231,0.5)",
                   textDecoration: "none",
                 }}
               >

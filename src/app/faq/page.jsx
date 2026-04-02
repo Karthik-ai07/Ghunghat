@@ -3,15 +3,15 @@ import Link from "next/link";
 export const dynamic = "force-static";
 
 export const metadata = {
-  title: "Ghunghat FAQ | Buy Ghunghat Online India Quality Help",
+  title: "FAQs | Ghunghat — Buying Ghunghat Online Guide",
   description:
-    "Ghunghat's comprehensive FAQ for bridal ghunghat, wedding dupattas, and traditional ghunghat beauty rituals. Find answers on quality and shipping.",
+    "Find answers about bridal ghunghat shipping, wedding dupatta care, and traditional ghunghat quality. Everything you need to buy ghunghat online with ease.",
   alternates: {
     canonical: "/faq",
   },
   openGraph: {
-    title: "FAQ | Ghunghat",
-    description: "Common questions and beauty advice.",
+    title: "FAQ | Ghunghat — Bridal Ghunghat & Wedding Dupatta Help",
+    description: "Common questions about our premium bridal collection and shipping.",
     url: "https://ghunghat.com/faq",
     type: "website",
   },

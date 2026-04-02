@@ -5,15 +5,15 @@ import CheckoutPageClient from "./_CheckoutPageClient";
  * We wrap it in a Server Component just for Metadata management.
  */
 export const metadata = {
-  title: "Secure Checkout",
+  title: "Secure Checkout | Ghunghat — Bridal Ghunghat & Wedding Dupatta",
   description:
-    "Complete your Ghunghat purchase securely. India's trusted beauty destination.",
+    "Complete your purchase of premium bridal ghunghat online securely. Fast delivery across India for your wedding day essentials.",
   alternates: {
     canonical: "/checkout",
   },
   openGraph: {
-    title: "Secure Checkout | Ghunghat",
-    description: "Complete your premium beauty purchase.",
+    title: "Secure Checkout | Ghunghat — Premium Bridal Wear",
+    description: "Complete your wedding dupatta and bridal ghunghat purchase.",
     url: "https://ghunghat.com/checkout",
     type: "website",
   },

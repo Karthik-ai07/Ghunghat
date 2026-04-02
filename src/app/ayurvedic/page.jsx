@@ -5,15 +5,15 @@ import { AddToCartButton } from "@/components/cart/AddToCartButton";
 export const dynamic = "force-static";
 
 export const metadata = {
-  title: "Bridal Ayurvedic Beauty | Buy Ghunghat Online India",
+  title: "Ayurvedic Bridal Care | Ghunghat — Traditional Wedding Essentials",
   description:
-    "Ghunghat: Buy quality Ayurvedic bridal beauty products online in India. Traditional ghunghat rituals, Kumkumadi Tailam, and ancient herb blends.",
+    "Complement your bridal ghunghat with curated ayurvedic beauty. Buy ghunghat online and prep for your special wedding day with traditional rituals.",
   alternates: {
     canonical: "/ayurvedic",
   },
   openGraph: {
-    title: "Ayurvedic Beauty | Ghunghat",
-    description: "Time-tested Ayurvedic rituals for modern beauty.",
+    title: "Ayurvedic Bridal care | Ghunghat — Bridal Ghunghat Prep",
+    description: "Time-tested Ayurvedic rituals to glow under your wedding dupatta.",
     url: "https://ghunghat.com/ayurvedic",
     type: "website",
   },

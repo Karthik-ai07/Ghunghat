@@ -152,8 +152,7 @@ export default function Home() {
             border: 0,
           }}
         >
-          Buy Ghunghat Online India — Traditional Bridal Ghunghat & Wedding
-          Dupattas
+          Buy Ghunghat Online India — Premium Bridal Ghunghat & Wedding Dupattas
         </h1>
 
         {/* ══════════════════════════════════════
@@ -321,7 +320,7 @@ export default function Home() {
                 margin: 0,
               }}
             >
-              Shop traditional ghunghat with quality. Our bridal ghunghat and wedding dupatta collection defines royal grace and pure tradition.
+              Buy ghunghat online with royal grace. Our premium bridal ghunghat and wedding dupatta collection defines tradition and pure quality.
             </p>
 
             {/* CTA */}
@@ -451,9 +450,7 @@ export default function Home() {
                   lineHeight: 1.2,
                 }}
               >
-                Quality Assured
-                <br />
-                <span style={{ color: "#B8860B" }}>Bridal Collection</span>
+                Bridal Ghunghat & Wedding Dupatta Collection
               </h2>
             </div>
 

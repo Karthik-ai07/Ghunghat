@@ -5,15 +5,15 @@ import { AddToCartButton } from "@/components/cart/AddToCartButton";
 export const dynamic = "force-static";
 
 export const metadata = {
-  title: "Bridal Makeup | Buy Ghunghat Online India — Traditional Elegance",
+  title: "Bridal Makeup | Ghunghat — Match Your Wedding Dupatta",
   description:
-    "Ghunghat: Buy quality bridal makeup online in India. Long-wearing foundations, lipsticks, and kohl for traditional ghunghat wedding looks.",
+    "Explore bridal makeup collections that perfectly match your heavy embroidered ghunghat. Shop long-wearing bridal essentials at GhunghatWithQuality.",
   alternates: {
     canonical: "/makeup",
   },
   openGraph: {
-    title: "Makeup | Ghunghat",
-    description: "Premium makeup curated for Indian skin tones.",
+    title: "Bridal Makeup | Ghunghat — Bridal Ghunghat Looks",
+    description: "Premium makeup curated to match your traditional wedding dupatta.",
     url: "https://ghunghat.com/makeup",
     type: "website",
   },

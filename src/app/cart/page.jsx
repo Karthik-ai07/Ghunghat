@@ -3,15 +3,15 @@ import CartPageClient from "./_CartPageClient";
 export const dynamic = "force-static";
 
 export const metadata = {
-  title: "Shopping Bag",
+  title: "Your Shopping Cart | Ghunghat — Buy Bridal Dupatta Online",
   description:
-    "View and manage your curated selection of Ghunghat products before checkout.",
+    "Review your selected wedding dupatta and bridal ghunghat before checkout. Quality assured traditional bridal wear.",
   alternates: {
     canonical: "/cart",
   },
   openGraph: {
-    title: "Shopping Bag | Ghunghat",
-    description: "Review your curated beauty selection.",
+    title: "Your Shopping Cart | Ghunghat — Buy Bridal Ghunghat",
+    description: "Review your bridal collection items and wedding dupatta selection.",
     url: "https://ghunghat.com/cart",
     type: "website",
   },

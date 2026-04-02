@@ -3,15 +3,15 @@ import Link from "next/link";
 export const dynamic = "force-static";
 
 export const metadata = {
-  title: "Ghunghat Shipping | Buy Ghunghat Online India Quality Assured",
+  title: "Shipping Policy | Ghunghat — Free Ghunghat Delivery India",
   description:
-    "Ghunghat's transparent shipping and returns policy for your bridal ghunghat and wedding dupatta orders. Free delivery in India on orders above ₹499.",
+    "Learn about our worldwide shipping for bridal ghunghats and wedding dupattas. Free delivery across India for premium traditional bridal wear orders.",
   alternates: {
     canonical: "/shipping",
   },
   openGraph: {
-    title: "Shipping & Returns | Ghunghat",
-    description: "Transparent policies for your peace of mind.",
+    title: "Shipping & Returns | Ghunghat — Bridal Ghunghat Delivery",
+    description: "Transparent shipping and return policies for your wedding collection.",
     url: "https://ghunghat.com/shipping",
     type: "website",
   },

@@ -5,15 +5,15 @@ import { AddToCartButton } from "@/components/cart/AddToCartButton";
 export const dynamic = "force-static";
 
 export const metadata = {
-  title: "Gifting Curations",
+  title: "Bridal Gifting | Ghunghat — Wedding Dupatta Gift Sets",
   description:
-    "Thoughtfully curated beauty gift sets from Ghunghat — perfect for birthdays, weddings, and festivals. Complimentary gift wrap included.",
+    "The perfect wedding gift: Buy premium bridal ghunghat and dupattas online. Thoughtfully curated beauty and wedding wear gift sets from GhunghatWithQuality.",
   alternates: {
     canonical: "/gifting",
   },
   openGraph: {
-    title: "Gifting Curations | Ghunghat",
-    description: "Premium beauty gift sets for every occasion.",
+    title: "Bridal Gifting | Ghunghat — Wedding Dupatta Gifts",
+    description: "Premium bridal ghunghat and beauty gift sets for special occasions.",
     url: "https://ghunghat.com/gifting",
     type: "website",
   },

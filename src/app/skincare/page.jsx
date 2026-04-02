@@ -5,15 +5,15 @@ import { AddToCartButton } from "@/components/cart/AddToCartButton";
 export const dynamic = "force-static";
 
 export const metadata = {
-  title: "Bridal Skincare | Buy Ghunghat Online India — Traditional Beauty",
+  title: "Bridal Skincare | Ghunghat — Prep for Your Wedding Day",
   description:
-    "Buy high-quality bridal skincare online in India at Ghunghat. Dermatologist-tested serums and traditional ghunghat beauty essentials for the modern bride.",
+    "Buy premium bridal skincare to glow under your bridal ghunghat and wedding veil. Curated traditional beauty essentials for the modern Indian bride.",
   alternates: {
     canonical: "/skincare",
   },
   openGraph: {
-    title: "Skincare | Ghunghat",
-    description: "Dermatologist-tested skincare curated for Indian skin.",
+    title: "Skincare | Ghunghat — Bridal Skin Prep",
+    description: "Dermatologist-tested skincare curated for your wedding day glow.",
     url: "https://ghunghat.com/skincare",
     type: "website",
   },

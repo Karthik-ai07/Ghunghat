@@ -3,9 +3,9 @@ import Link from "next/link";
 export const dynamic = "force-static";
 
 export const metadata = {
-  title: "Contact Us",
+  title: "Contact Ghunghat | Buy Ghunghat Online India Support",
   description:
-    "Get in touch with the Ghunghat team for order support, beauty advice, or any queries. We're here to help.",
+    "Contact the Ghunghat team for bridal ghunghat and wedding dupatta order support. Buy quality traditional ghunghat online in India with confidence.",
   alternates: {
     canonical: "/contact",
   },
@@ -53,7 +53,7 @@ export default function ContactPage() {
             margin: "0.75rem 0 0.5rem",
           }}
         >
-          Contact Us
+          Contact Traditional Ghunghat
         </h1>
         <p
           style={{

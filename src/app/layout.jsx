@@ -5,28 +5,33 @@ import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   metadataBase: new URL("https://ghunghat.com"),
-  title: {
-    default: "Ghunghat | Curated Beauty. Royal Grace.",
-    template: "%s | Ghunghat",
-  },
+  title: "Buy Ghunghat Online India | Bridal Dupatta | GhunghatWithQuality",
   description:
-    "India's most trusted curated beauty destination since 1986. Quality over Quantity. Shop skincare, makeup & ayurvedic products.",
+    "Shop premium bridal ghunghat and wedding dupatta online. Traditional quality with modern designs. Free shipping across India.",
+  keywords: [
+    "ghunghat online",
+    "buy ghunghat India",
+    "bridal ghunghat",
+    "wedding dupatta",
+    "traditional veil India",
+    "ghunghat with quality",
+  ],
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Ghunghat | Curated Beauty. Royal Grace.",
-    description: "India's most trusted curated beauty destination since 1986.",
+    title: "Buy Ghunghat Online India | GhunghatWithQuality",
+    description: "Premium bridal ghunghat and wedding dupatta. Traditional quality.",
     url: "https://ghunghat.com",
     siteName: "Ghunghat",
     locale: "en_IN",
     type: "website",
     images: [
       {
-        url: "/og-image.png",
+        url: "https://ghunghat.com/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Ghunghat Beauty Store",
+        alt: "Ghunghat - Curated Beauty. Royal Grace.",
       },
     ],
   },
@@ -34,18 +39,14 @@ export const metadata = {
     card: "summary_large_image",
     title: "Ghunghat | Curated Beauty. Royal Grace.",
     description: "India's most trusted curated beauty destination since 1986.",
-    images: ["/og-image.png"],
+    images: ["https://ghunghat.com/og-image.png"],
   },
-  robots: {
-    index: true,
-    follow: true,
+  verification: {
+    google: "google3f23f0593b34e847",
   },
   icons: {
     icon: "/favicon.ico",
     apple: "/apple-touch-icon.png",
-  },
-  verification: {
-    google: "google3f23f0593b34e847",
   },
 };
 

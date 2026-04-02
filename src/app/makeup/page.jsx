@@ -5,9 +5,9 @@ import { AddToCartButton } from "@/components/cart/AddToCartButton";
 export const dynamic = "force-static";
 
 export const metadata = {
-  title: "Makeup",
+  title: "Bridal Makeup | Buy Ghunghat Online India — Traditional Elegance",
   description:
-    "Bold lipsticks, kajal, foundations, and blush from Ghunghat — curated for Indian skin tones. Lab-certified, long-wearing formulas.",
+    "Ghunghat: Buy quality bridal makeup online in India. Long-wearing foundations, lipsticks, and kohl for traditional ghunghat wedding looks.",
   alternates: {
     canonical: "/makeup",
   },
@@ -171,7 +171,7 @@ export default function MakeupPage() {
             margin: "0.75rem 0 0.5rem",
           }}
         >
-          Makeup
+          Bridal Makeup & Traditional Ghunghat Essentials
         </h1>
         <p
           style={{
@@ -220,7 +220,7 @@ export default function MakeupPage() {
               >
                 <Image
                   src={p.img}
-                  alt={`Ghunghat Curated ${p.name} — Luxury Makeup`}
+                  alt={`Ghunghat ${p.name}: Quality Bridal Makeup India`}
                   fill
                   style={{ objectFit: "cover" }}
                   sizes="(max-width:768px) 100vw, 33vw"

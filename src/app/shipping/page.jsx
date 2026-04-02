@@ -3,9 +3,9 @@ import Link from "next/link";
 export const dynamic = "force-static";
 
 export const metadata = {
-  title: "Shipping & Returns",
+  title: "Ghunghat Shipping | Buy Ghunghat Online India Quality Assured",
   description:
-    "Ghunghat's transparent shipping and returns policy. Free delivery on orders above ₹499. Easy 7-day returns on unopened products.",
+    "Ghunghat's transparent shipping and returns policy for your bridal ghunghat and wedding dupatta orders. Free delivery in India on orders above ₹499.",
   alternates: {
     canonical: "/shipping",
   },
@@ -41,7 +41,7 @@ export default function ShippingPage() {
             margin: "0 0 0.5rem",
           }}
         >
-          Shipping &amp; Returns
+          Delivery &amp; Returns for Traditional Ghunghat
         </h1>
         <p
           style={{

@@ -1,9 +1,9 @@
 import ShadeFinderPageClient from "./_ShadeFinderPageClient";
 
 export const metadata = {
-  title: "Shade Finder",
+  title: "Bridal Shade Finder | Buy Ghunghat Online India",
   description:
-    "Ghunghat's 3-step AI beauty consultation matches products to your exact skin undertone, depth, and finish preference in under 60 seconds.",
+    "Ghunghat's 3-step AI bridal shade finder matches your skin to the perfect traditional ghunghat beauty routine in under 60 seconds. Quality assured.",
   alternates: {
     canonical: "/shade-finder",
   },

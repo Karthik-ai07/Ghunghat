@@ -5,20 +5,27 @@ import Link from "next/link";
 export const dynamic = "force-static";
 
 export const metadata = {
-  title: "Ghunghat | Curated Beauty. Royal Grace.",
+  title: "Buy Ghunghat Online India | Bridal Dupatta | GhunghatWithQuality",
   description:
-    "India's most trusted curated beauty destination since 1986. Shop quality-assured skincare, makeup, and Ayurvedic products.",
+    "Shop premium bridal ghunghat and wedding dupatta online. Traditional quality with modern designs. Free shipping across India.",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Ghunghat | Curated Beauty. Royal Grace.",
-    description: "India's most trusted curated beauty destination since 1986.",
+    title: "Buy Ghunghat Online India | GhunghatWithQuality",
+    description: "Premium bridal ghunghat and wedding dupatta. Traditional quality.",
     url: "https://ghunghat.com",
     siteName: "Ghunghat",
     locale: "en_IN",
     type: "website",
-    images: ["/og-image.png"],
+    images: [
+      {
+        url: "https://ghunghat.com/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Ghunghat - Curated Beauty. Royal Grace.",
+      },
+    ],
   },
 };
 
@@ -78,7 +85,7 @@ function FloatingCard({ src, alt, delay, rotate = 0, translateY = 0 }) {
     >
       <Image
         src={src}
-        alt={alt}
+        alt={`${alt} — Buy Ghunghat Online India`}
         fill
         style={{ objectFit: "cover" }}
         sizes="260px"
@@ -145,7 +152,8 @@ export default function Home() {
             border: 0,
           }}
         >
-          Ghunghat — India's Most Trusted Curated Beauty Destination
+          Buy Ghunghat Online India — Traditional Bridal Ghunghat & Wedding
+          Dupattas
         </h1>
 
         {/* ══════════════════════════════════════
@@ -182,7 +190,7 @@ export default function Home() {
           >
             <Image
               src="/mandala-bg.png"
-              alt="Traditional Indian Gold Mandala Pattern"
+              alt="Traditional Indian Ghunghat Mandala Pattern"
               fill
               style={{
                 objectFit: "contain",
@@ -242,7 +250,7 @@ export default function Home() {
             <div style={{ position: "relative", width: "min(580px, 88vw)" }}>
               <Image
                 src="/Logo.png"
-                alt="Ghunghat — India's Most Trusted Curated Beauty Destination"
+                alt="Ghunghat: Buy Quality Ghunghat Online India — Traditional & Bridal Collection"
                 width={580}
                 height={185}
                 style={{
@@ -313,7 +321,7 @@ export default function Home() {
                 margin: 0,
               }}
             >
-              Curated Beauty. Royal Grace. Pure Tradition.
+              Shop traditional ghunghat with quality. Our bridal ghunghat and wedding dupatta collection defines royal grace and pure tradition.
             </p>
 
             {/* CTA */}
@@ -443,9 +451,9 @@ export default function Home() {
                   lineHeight: 1.2,
                 }}
               >
-                Each Product,
+                Quality Assured
                 <br />
-                <span style={{ color: "#B8860B" }}>A Masterpiece</span>
+                <span style={{ color: "#B8860B" }}>Bridal Collection</span>
               </h2>
             </div>
 
@@ -510,7 +518,7 @@ export default function Home() {
                 >
                   <Image
                     src={src}
-                    alt={alt}
+                    alt={`${alt}: Bridal Ghunghat & Wedding Dupatta`}
                     fill
                     style={{ objectFit: "cover" }}
                     sizes="220px"
@@ -598,7 +606,7 @@ export default function Home() {
                   margin: 0,
                 }}
               >
-                Bestsellers This Season
+                Traditional Ghunghat & Wedding Dupattas
               </h2>
             </div>
 
@@ -664,7 +672,7 @@ export default function Home() {
                   >
                     <Image
                       src={p.img}
-                      alt={p.name}
+                      alt={`${p.name}: High Quality Traditional Ghunghat`}
                       fill
                       style={{ objectFit: "cover" }}
                       sizes="(max-width:768px) 50vw, 25vw"

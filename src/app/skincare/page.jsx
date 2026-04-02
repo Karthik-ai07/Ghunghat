@@ -5,9 +5,9 @@ import { AddToCartButton } from "@/components/cart/AddToCartButton";
 export const dynamic = "force-static";
 
 export const metadata = {
-  title: "Skincare",
+  title: "Bridal Skincare | Buy Ghunghat Online India — Traditional Beauty",
   description:
-    "Shop dermatologist-tested and lab-certified skincare products at Ghunghat. Serums, moisturisers, sunscreens and more for Indian skin.",
+    "Buy high-quality bridal skincare online in India at Ghunghat. Dermatologist-tested serums and traditional ghunghat beauty essentials for the modern bride.",
   alternates: {
     canonical: "/skincare",
   },
@@ -171,7 +171,7 @@ export default function SkincarePage() {
             margin: "0.75rem 0 0.5rem",
           }}
         >
-          Skincare
+          Bridal Skincare & Traditional Ghunghat Beauty
         </h1>
         <p
           style={{
@@ -220,7 +220,7 @@ export default function SkincarePage() {
               >
                 <Image
                   src={p.img}
-                  alt={`Ghunghat Curated ${p.name} — High-Quality Skincare`}
+                  alt={`Ghunghat Curated ${p.name}: Buy Traditional Ghunghat Online India`}
                   fill
                   style={{ objectFit: "cover" }}
                   sizes="(max-width:768px) 100vw, 33vw"

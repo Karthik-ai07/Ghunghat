@@ -3,9 +3,9 @@ import Link from "next/link";
 export const dynamic = "force-static";
 
 export const metadata = {
-  title: "FAQ",
+  title: "Ghunghat FAQ | Buy Ghunghat Online India Quality Help",
   description:
-    "Answers to common questions about Ghunghat orders, skincare products, shipping, returns, and our QA badge system.",
+    "Ghunghat's comprehensive FAQ for bridal ghunghat, wedding dupattas, and traditional ghunghat beauty rituals. Find answers on quality and shipping.",
   alternates: {
     canonical: "/faq",
   },
@@ -76,7 +76,7 @@ export default function FAQPage() {
             margin: "0 0 0.5rem",
           }}
         >
-          Frequently Asked Questions
+          Traditional Ghunghat FAQ
         </h1>
         <p
           style={{

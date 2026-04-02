@@ -5,9 +5,9 @@ import { AddToCartButton } from "@/components/cart/AddToCartButton";
 export const dynamic = "force-static";
 
 export const metadata = {
-  title: "Ayurvedic Beauty",
+  title: "Bridal Ayurvedic Beauty | Buy Ghunghat Online India",
   description:
-    "Discover time-tested Ayurvedic skincare traditions at Ghunghat — Kumkumadi Tailam, Neem Tulsi packs, rose water toners, and more.",
+    "Ghunghat: Buy quality Ayurvedic bridal beauty products online in India. Traditional ghunghat rituals, Kumkumadi Tailam, and ancient herb blends.",
   alternates: {
     canonical: "/ayurvedic",
   },
@@ -171,7 +171,7 @@ export default function AyurvedicPage() {
             margin: "0.75rem 0 0.5rem",
           }}
         >
-          Ayurvedic Traditions
+          Bridal Ayurvedic Rituals & Traditional Ghunghat
         </h1>
         <p
           style={{
@@ -220,7 +220,7 @@ export default function AyurvedicPage() {
               >
                 <Image
                   src={p.img}
-                  alt={`Ghunghat Curated ${p.name} — Traditional Ayurvedic Beauty`}
+                  alt={`Ghunghat ${p.name}: Traditional Bridal Ghunghat Beauty`}
                   fill
                   style={{ objectFit: "cover" }}
                   sizes="(max-width:768px) 100vw, 33vw"

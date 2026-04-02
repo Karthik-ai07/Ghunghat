@@ -320,9 +320,9 @@ export default function ShadeFinderPageClient() {
               maxWidth: "700px",
             }}
           >
-            Discover Your
+            Find Your
             <br />
-            <span style={{ color: "#B8860B" }}>Perfect Match</span>
+            <span style={{ color: "#B8860B" }}>Bridal Ghunghat Match</span>
           </h1>
 
           <p
@@ -335,8 +335,7 @@ export default function ShadeFinderPageClient() {
               margin: "0 0 3rem",
             }}
           >
-            Three precise questions. A curated selection matched to your exact
-            skin undertone, depth, and finish — as individual as you are.
+            Three precise questions to match your skin depth and undertone to a traditional ghunghat beauty routine — ensuring quality for the modern bride.
           </p>
 
           <div

@@ -1,6 +1,23 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { AddToCartButton } from "@/components/cart/AddToCartButton";
+
+export const dynamic = "force-static";
+
+export const metadata: Metadata = {
+  title: "Makeup",
+  description: "Bold lipsticks, kajal, foundations, and blush from Ghunghat — curated for Indian skin tones. Lab-certified, long-wearing formulas.",
+  alternates: {
+    canonical: "/makeup",
+  },
+  openGraph: {
+    title: "Makeup | Ghunghat",
+    description: "Premium makeup curated for Indian skin tones.",
+    url: "https://ghunghat.com/makeup",
+    type: "website",
+  },
+};
 
 const products = [
   { id: "mk-001", name: "Velvet Matte Lipstick — Ruby", brand: "Ghunghat", price: 599, mrp: 799, badge: "Lab Certified", category: "Lipstick", img: "/products/lipstick.png", desc: "Deeply pigmented ruby red. 8-hour wear. Indian skin-tone optimised." },
@@ -34,7 +51,7 @@ export default function MakeupPage() {
           {products.map((p) => (
             <div key={p.id} style={{ backgroundColor: "#fff", border: "1px solid #E8D5A3", borderRadius: "10px", overflow: "hidden", boxShadow: "0 2px 16px rgba(139,0,0,0.06)" }}>
               <div style={{ position: "relative", width: "100%", aspectRatio: "1", backgroundColor: "#f9f1e0", overflow: "hidden" }}>
-                <Image src={p.img} alt={p.name} fill style={{ objectFit: "cover" }} sizes="(max-width:768px) 100vw, 33vw" />
+                <Image src={p.img} alt={`Ghunghat Curated ${p.name} — Luxury Makeup`} fill style={{ objectFit: "cover" }} sizes="(max-width:768px) 100vw, 33vw" />
               </div>
               <div style={{ padding: "1.25rem 1.5rem 1.5rem" }}>
                 <QABadge text={p.badge} />

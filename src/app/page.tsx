@@ -1,6 +1,26 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import { CanvasSequence } from "@/components/canvas/CanvasSequence";
 import Link from "next/link";
+
+export const dynamic = "force-static";
+
+export const metadata: Metadata = {
+  title: "Ghunghat | Curated Beauty. Royal Grace.",
+  description: "India's most trusted curated beauty destination since 1986. Shop quality-assured skincare, makeup, and Ayurvedic products.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Ghunghat | Curated Beauty. Royal Grace.",
+    description: "India's most trusted curated beauty destination since 1986.",
+    url: "https://ghunghat.com",
+    siteName: "Ghunghat",
+    locale: "en_IN",
+    type: "website",
+    images: ["/og-image.png"],
+  },
+};
 
 /* ── Ambient gold orb ─── */
 function GoldOrb({ size = 400, x = "0%", y = "0%", opacity = 0.07 }: { size?: number; x?: string; y?: string; opacity?: number }) {
@@ -51,9 +71,12 @@ function FloatingCard({
   );
 }
 
+import { JsonLd } from "@/components/seo/JsonLd";
+
 export default function Home() {
   return (
     <>
+      <JsonLd />
       {/* ── Floating animation keyframes ── */}
       <style>{`
         @keyframes floatCard {
@@ -77,6 +100,10 @@ export default function Home() {
       `}</style>
 
       <div style={{ width: "100%", display: "flex", flexDirection: "column", backgroundColor: "#0D0404" }}>
+        {/* Visually integrated H1 for SEO */}
+        <h1 style={{ position: "absolute", width: "1px", height: "1px", padding: 0, margin: "-1px", overflow: "hidden", clip: "rect(0,0,0,0)", border: 0 }}>
+          Ghunghat — India's Most Trusted Curated Beauty Destination
+        </h1>
 
         {/* ══════════════════════════════════════
             SECTION 1 · 3D SCROLLYTELLING HERO
@@ -97,7 +124,7 @@ export default function Home() {
         }}>
           {/* Background mandala */}
           <div aria-hidden style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center", pointerEvents: "none", overflow: "hidden" }}>
-            <Image src="/mandala-bg.png" alt="" fill style={{ objectFit: "contain", opacity: 0.04, mixBlendMode: "luminosity" }} sizes="100vw" />
+            <Image src="/mandala-bg.png" alt="Traditional Indian Gold Mandala Pattern" fill style={{ objectFit: "contain", opacity: 0.04, mixBlendMode: "luminosity" }} sizes="100vw" />
           </div>
 
           {/* Ambient gold orbs */}
@@ -117,7 +144,7 @@ export default function Home() {
             <div style={{ position: "relative", width: "min(580px, 88vw)" }}>
               <Image
                 src="/Logo.png"
-                alt="Ghunghat — Your Satisfaction is Our Mission"
+                alt="Ghunghat — India's Most Trusted Curated Beauty Destination"
                 width={580}
                 height={185}
                 style={{ width: "100%", height: "auto", objectFit: "contain", filter: "drop-shadow(0 0 40px rgba(184,134,11,0.25))" }}

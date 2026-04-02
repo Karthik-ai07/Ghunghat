@@ -1,6 +1,23 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { AddToCartButton } from "@/components/cart/AddToCartButton";
+
+export const dynamic = "force-static";
+
+export const metadata: Metadata = {
+  title: "Gifting Curations",
+  description: "Thoughtfully curated beauty gift sets from Ghunghat — perfect for birthdays, weddings, and festivals. Complimentary gift wrap included.",
+  alternates: {
+    canonical: "/gifting",
+  },
+  openGraph: {
+    title: "Gifting Curations | Ghunghat",
+    description: "Premium beauty gift sets for every occasion.",
+    url: "https://ghunghat.com/gifting",
+    type: "website",
+  },
+};
 
 const giftSets = [
   {
@@ -46,7 +63,7 @@ export default function GiftingPage() {
           {giftSets.map((g) => (
             <div key={g.id} style={{ backgroundColor: "#fff", border: "1px solid #E8D5A3", borderRadius: "12px", overflow: "hidden", boxShadow: "0 2px 20px rgba(139,0,0,0.08)", display: "flex", gap: 0 }}>
               <div style={{ position: "relative", width: "180px", flexShrink: 0, backgroundColor: "#f9f1e0" }}>
-                <Image src={g.img} alt={g.name} fill style={{ objectFit: "cover" }} sizes="180px" />
+                <Image src={g.img} alt={`Ghunghat Premium Gift set — ${g.name}`} fill style={{ objectFit: "cover" }} sizes="180px" />
               </div>
               <div style={{ padding: "1.5rem", flex: 1 }}>
                 <div style={{ display: "flex", gap: "0.5rem", marginBottom: "0.75rem", flexWrap: "wrap" }}>

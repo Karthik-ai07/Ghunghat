@@ -1,4 +1,21 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const dynamic = "force-static";
+
+export const metadata: Metadata = {
+  title: "FAQ",
+  description: "Answers to common questions about Ghunghat orders, skincare products, shipping, returns, and our QA badge system.",
+  alternates: {
+    canonical: "/faq",
+  },
+  openGraph: {
+    title: "FAQ | Ghunghat",
+    description: "Common questions and beauty advice.",
+    url: "https://ghunghat.com/faq",
+    type: "website",
+  },
+};
 
 const faqs = [
   { q: "How do I know a product is safe for my skin?", a: "Every product on Ghunghat carries one of three QA badges: Dermatologist Tested, Lab Certified, or Ghunghat Curated — indicating the level of verification performed before listing." },

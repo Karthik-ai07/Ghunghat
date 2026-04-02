@@ -1,6 +1,23 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { AddToCartButton } from "@/components/cart/AddToCartButton";
+
+export const dynamic = "force-static";
+
+export const metadata: Metadata = {
+  title: "Ayurvedic Beauty",
+  description: "Discover time-tested Ayurvedic skincare traditions at Ghunghat — Kumkumadi Tailam, Neem Tulsi packs, rose water toners, and more.",
+  alternates: {
+    canonical: "/ayurvedic",
+  },
+  openGraph: {
+    title: "Ayurvedic Beauty | Ghunghat",
+    description: "Time-tested Ayurvedic rituals for modern beauty.",
+    url: "https://ghunghat.com/ayurvedic",
+    type: "website",
+  },
+};
 
 const products = [
   { id: "ay-001", name: "Kumkumadi Tailam Face Oil", brand: "Ghunghat", price: 1199, mrp: 1499, badge: "Lab Certified", category: "Face Oil", img: "/products/kumkumadi.png", desc: "Ancient 24-herb saffron oil for luminous overnight repair." },
@@ -34,7 +51,7 @@ export default function AyurvedicPage() {
           {products.map((p) => (
             <div key={p.id} style={{ backgroundColor: "#fff", border: "1px solid #E8D5A3", borderRadius: "10px", overflow: "hidden", boxShadow: "0 2px 16px rgba(139,0,0,0.06)" }}>
               <div style={{ position: "relative", width: "100%", aspectRatio: "1", backgroundColor: "#f9f1e0", overflow: "hidden" }}>
-                <Image src={p.img} alt={p.name} fill style={{ objectFit: "cover" }} sizes="(max-width:768px) 100vw, 33vw" />
+                <Image src={p.img} alt={`Ghunghat Curated ${p.name} — Traditional Ayurvedic Beauty`} fill style={{ objectFit: "cover" }} sizes="(max-width:768px) 100vw, 33vw" />
               </div>
               <div style={{ padding: "1.25rem 1.5rem 1.5rem" }}>
                 <QABadge text={p.badge} />

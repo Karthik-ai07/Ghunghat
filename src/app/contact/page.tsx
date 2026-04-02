@@ -1,4 +1,21 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const dynamic = "force-static";
+
+export const metadata: Metadata = {
+  title: "Contact Us",
+  description: "Get in touch with the Ghunghat team for order support, beauty advice, or any queries. We're here to help.",
+  alternates: {
+    canonical: "/contact",
+  },
+  openGraph: {
+    title: "Contact Us | Ghunghat",
+    description: "We're here to help with your beauty journey.",
+    url: "https://ghunghat.com/contact",
+    type: "website",
+  },
+};
 
 export default function ContactPage() {
   return (

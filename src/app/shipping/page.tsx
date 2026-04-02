@@ -1,4 +1,21 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const dynamic = "force-static";
+
+export const metadata: Metadata = {
+  title: "Shipping & Returns",
+  description: "Ghunghat's transparent shipping and returns policy. Free delivery on orders above ₹499. Easy 7-day returns on unopened products.",
+  alternates: {
+    canonical: "/shipping",
+  },
+  openGraph: {
+    title: "Shipping & Returns | Ghunghat",
+    description: "Transparent policies for your peace of mind.",
+    url: "https://ghunghat.com/shipping",
+    type: "website",
+  },
+};
 
 export default function ShippingPage() {
   return (
